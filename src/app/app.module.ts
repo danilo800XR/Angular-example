@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BootstrapGridComponent } from './bootstrap-grid/bootstrap-grid.component';
-import { BootstrapColorsComponent } from './bootstrap-colors/bootstrap-colors.component';
-import { BootstrapSpacingComponent } from './bootstrap-spacing/bootstrap-spacing.component';
+import { BootstrapGridComponent } from './components/bootstrap-grid/bootstrap-grid.component';
+import { BootstrapColorsComponent } from './components/bootstrap-colors/bootstrap-colors.component';
+import { BootstrapSpacingComponent } from './components/bootstrap-spacing/bootstrap-spacing.component';
 
 @NgModule({
   declarations: [

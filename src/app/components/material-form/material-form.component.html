@@ -1,13 +1,23 @@
 <mat-accordion>
     <mat-expansion-panel expanded>
-      <mat-expansion-panel-header class="bg-primary">
-        <h1 class="mb-0 text-white">Nuevo Usuario</h1>
-      </mat-expansion-panel-header>
-      <div class="row">
-          <div class="col-12">
-              body
-          </div>
-      </div>
+        <mat-expansion-panel-header class="bg-primary">
+            <h1 class="mb-0 text-white">Nuevo Usuario</h1>
+        </mat-expansion-panel-header>
+        <div class="row mt-2">
+            <div class="col-12 col-sm-6">
+                <mat-form-field class="w-100" appearance="standard">
+                    <mat-label>Nombre</mat-label>
+                    <input matInput placeholder="Introduzca su nombre">
+                    <mat-icon class="text-danger" matSuffix>sentiment_very_dissatisfied</mat-icon>
+                </mat-form-field>
+            </div>
+            <div class="col-12 col-sm-6">
+                <mat-form-field class="w-100" appearance="standard">
+                    <mat-label>Apellidos</mat-label>
+                    <input matInput placeholder="Introduzca sus apellidos">
+                    <mat-icon class="text-danger" matSuffix>people</mat-icon>
+                </mat-form-field>
+            </div>
+        </div>
     </mat-expansion-panel>
-  </mat-accordion>
-  
+</mat-accordion>

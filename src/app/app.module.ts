@@ -13,6 +13,10 @@ import { MaterialFormComponent } from './components/material-form/material-form.
 
 // Angular Material
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -29,7 +33,10 @@ import {MatExpansionModule} from '@angular/material/expansion';
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

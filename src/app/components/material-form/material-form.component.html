@@ -18,6 +18,16 @@
                     <mat-icon class="text-danger" matSuffix>people</mat-icon>
                 </mat-form-field>
             </div>
+            <div class="col-12 col-sm-6">
+                <mat-form-field class="w-100" appearance="standard">
+                    <mat-label>Sexo</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let sex of ['Hombre','Mujer']" [value]="sex">
+                            {{sex}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
         </div>
         <div class="row">
             <div class="col-12">

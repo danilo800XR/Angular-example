@@ -8,6 +8,7 @@ import { BootstrapColorsComponent } from './components/bootstrap-colors/bootstra
 import { BootstrapSpacingComponent } from './components/bootstrap-spacing/bootstrap-spacing.component';
 import { BootstrapDisplayComponent } from './components/bootstrap-display/bootstrap-display.component';
 import { BootstrapFlexComponent } from './components/bootstrap-flex/bootstrap-flex.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BootstrapFlexComponent } from './components/bootstrap-flex/bootstrap-fl
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

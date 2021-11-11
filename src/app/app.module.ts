@@ -7,6 +7,7 @@ import { BootstrapGridComponent } from './components/bootstrap-grid/bootstrap-gr
 import { BootstrapColorsComponent } from './components/bootstrap-colors/bootstrap-colors.component';
 import { BootstrapSpacingComponent } from './components/bootstrap-spacing/bootstrap-spacing.component';
 import { BootstrapDisplayComponent } from './components/bootstrap-display/bootstrap-display.component';
+import { BootstrapFlexComponent } from './components/bootstrap-flex/bootstrap-flex.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BootstrapDisplayComponent } from './components/bootstrap-display/bootst
     BootstrapGridComponent,
     BootstrapColorsComponent,
     BootstrapSpacingComponent,
-    BootstrapDisplayComponent
+    BootstrapDisplayComponent,
+    BootstrapFlexComponent
   ],
   imports: [
     BrowserModule,

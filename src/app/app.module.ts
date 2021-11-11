@@ -9,6 +9,11 @@ import { BootstrapSpacingComponent } from './components/bootstrap-spacing/bootst
 import { BootstrapDisplayComponent } from './components/bootstrap-display/bootstrap-display.component';
 import { BootstrapFlexComponent } from './components/bootstrap-flex/bootstrap-flex.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialFormComponent } from './components/material-form/material-form.component';
+
+// Angular Material
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 @NgModule({
   declarations: [
@@ -17,12 +22,14 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     BootstrapColorsComponent,
     BootstrapSpacingComponent,
     BootstrapDisplayComponent,
-    BootstrapFlexComponent
+    BootstrapFlexComponent,
+    MaterialFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
